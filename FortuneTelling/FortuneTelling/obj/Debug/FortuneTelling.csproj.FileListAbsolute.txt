@@ -1,0 +1,11 @@
+C:\Users\ia\source\repos\FortuneTelling\FortuneTelling\obj\Debug\FortuneTelling.csproj.AssemblyReference.cache
+C:\Users\ia\source\repos\FortuneTelling\FortuneTelling\obj\Debug\FortuneTelling.csproj.SuggestedBindingRedirects.cache
+C:\Users\ia\source\repos\FortuneTelling\FortuneTelling\obj\Debug\FortuneTelling.Form1.resources
+C:\Users\ia\source\repos\FortuneTelling\FortuneTelling\obj\Debug\FortuneTelling.Properties.Resources.resources
+C:\Users\ia\source\repos\FortuneTelling\FortuneTelling\obj\Debug\FortuneTelling.csproj.GenerateResource.cache
+C:\Users\ia\source\repos\FortuneTelling\FortuneTelling\obj\Debug\FortuneTelling.csproj.CoreCompileInputs.cache
+C:\Users\ia\source\repos\FortuneTelling\FortuneTelling\bin\Debug\FortuneTelling.exe.config
+C:\Users\ia\source\repos\FortuneTelling\FortuneTelling\bin\Debug\FortuneTelling.exe
+C:\Users\ia\source\repos\FortuneTelling\FortuneTelling\bin\Debug\FortuneTelling.pdb
+C:\Users\ia\source\repos\FortuneTelling\FortuneTelling\obj\Debug\FortuneTelling.exe
+C:\Users\ia\source\repos\FortuneTelling\FortuneTelling\obj\Debug\FortuneTelling.pdb

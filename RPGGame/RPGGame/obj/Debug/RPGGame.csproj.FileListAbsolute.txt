@@ -1,0 +1,3 @@
+C:\Users\ia\source\repos\RPGGame\RPGGame\obj\Debug\RPGGame.csproj.AssemblyReference.cache
+C:\Users\ia\source\repos\RPGGame\RPGGame\obj\Debug\RPGGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\ia\source\repos\RPGGame\RPGGame\obj\Debug\RPGGame.csproj.CoreCompileInputs.cache

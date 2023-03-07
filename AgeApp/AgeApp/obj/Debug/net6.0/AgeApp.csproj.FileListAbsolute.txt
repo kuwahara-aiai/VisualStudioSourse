@@ -1,0 +1,15 @@
+C:\Users\ia\source\repos\AgeApp\AgeApp\bin\Debug\net6.0\AgeApp.exe
+C:\Users\ia\source\repos\AgeApp\AgeApp\bin\Debug\net6.0\AgeApp.deps.json
+C:\Users\ia\source\repos\AgeApp\AgeApp\bin\Debug\net6.0\AgeApp.runtimeconfig.json
+C:\Users\ia\source\repos\AgeApp\AgeApp\bin\Debug\net6.0\AgeApp.dll
+C:\Users\ia\source\repos\AgeApp\AgeApp\bin\Debug\net6.0\AgeApp.pdb
+C:\Users\ia\source\repos\AgeApp\AgeApp\obj\Debug\net6.0\AgeApp.csproj.AssemblyReference.cache
+C:\Users\ia\source\repos\AgeApp\AgeApp\obj\Debug\net6.0\AgeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ia\source\repos\AgeApp\AgeApp\obj\Debug\net6.0\AgeApp.AssemblyInfoInputs.cache
+C:\Users\ia\source\repos\AgeApp\AgeApp\obj\Debug\net6.0\AgeApp.AssemblyInfo.cs
+C:\Users\ia\source\repos\AgeApp\AgeApp\obj\Debug\net6.0\AgeApp.csproj.CoreCompileInputs.cache
+C:\Users\ia\source\repos\AgeApp\AgeApp\obj\Debug\net6.0\AgeApp.dll
+C:\Users\ia\source\repos\AgeApp\AgeApp\obj\Debug\net6.0\refint\AgeApp.dll
+C:\Users\ia\source\repos\AgeApp\AgeApp\obj\Debug\net6.0\AgeApp.pdb
+C:\Users\ia\source\repos\AgeApp\AgeApp\obj\Debug\net6.0\AgeApp.genruntimeconfig.cache
+C:\Users\ia\source\repos\AgeApp\AgeApp\obj\Debug\net6.0\ref\AgeApp.dll

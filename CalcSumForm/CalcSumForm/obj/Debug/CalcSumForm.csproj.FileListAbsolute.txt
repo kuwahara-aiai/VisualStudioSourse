@@ -1,0 +1,11 @@
+C:\Users\ia\source\repos\CalcSumForm\CalcSumForm\bin\Debug\CalcSumForm.exe.config
+C:\Users\ia\source\repos\CalcSumForm\CalcSumForm\bin\Debug\CalcSumForm.exe
+C:\Users\ia\source\repos\CalcSumForm\CalcSumForm\bin\Debug\CalcSumForm.pdb
+C:\Users\ia\source\repos\CalcSumForm\CalcSumForm\obj\Debug\CalcSumForm.csproj.AssemblyReference.cache
+C:\Users\ia\source\repos\CalcSumForm\CalcSumForm\obj\Debug\CalcSumForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\ia\source\repos\CalcSumForm\CalcSumForm\obj\Debug\CalcSumForm.Form1.resources
+C:\Users\ia\source\repos\CalcSumForm\CalcSumForm\obj\Debug\CalcSumForm.Properties.Resources.resources
+C:\Users\ia\source\repos\CalcSumForm\CalcSumForm\obj\Debug\CalcSumForm.csproj.GenerateResource.cache
+C:\Users\ia\source\repos\CalcSumForm\CalcSumForm\obj\Debug\CalcSumForm.csproj.CoreCompileInputs.cache
+C:\Users\ia\source\repos\CalcSumForm\CalcSumForm\obj\Debug\CalcSumForm.exe
+C:\Users\ia\source\repos\CalcSumForm\CalcSumForm\obj\Debug\CalcSumForm.pdb
