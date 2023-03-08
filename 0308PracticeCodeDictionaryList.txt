@@ -1,0 +1,133 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Pra0308
+{
+    internal class Main1
+    {
+        static void Main(string[] arg)
+        {
+            //List<Dictionary> aa = new List<Dictionary>();
+            Dictionary<string, Chara> bb = new Dictionary<string, Chara>();
+            bb.Add("teacher", new Chara(10, "okano"));
+            bb.Add("programer", new Chara(30, "kuwahara"));
+            bb.Add("archer", new Chara(30, "kawahito"));
+
+            foreach (KeyValuePair<string, Chara> player in bb)
+            {
+                Console.WriteLine(player.Key + ":");
+                Console.WriteLine(player.Value.name);
+                Console.WriteLine(player.Value.hp);
+                Console.WriteLine("-----------------------------");
+            }
+
+
+            List<Chara> mikata = new List<Chara>();
+            mikata.Add(new Chara(20, "suppaman"));
+            mikata.Add(new Chara(20, "ironman"));
+            mikata.Add(new Chara(20, "supman"));
+            mikata.Add(new Chara(20, "aquaman"));
+
+            List<Chara> teki = new List<Chara>();
+            teki.Add(new Chara(20, "dragon"));
+            teki.Add(new Chara(20, "daemon"));
+            teki.Add(new Chara(20, "goblin"));
+            teki.Add(new Chara(20, "gozila"));
+
+            Dictionary<string, List<Chara>> CharaList = new Dictionary<string, List<Chara>>();
+            CharaList.Add("ヒーローたち", mikata);
+            CharaList.Add("敵陣", teki);
+
+            Console.WriteLine("-----!!!!!!----------");
+            Console.WriteLine(CharaList["ヒーローたち"][0].name);
+            Console.WriteLine("-----!!!!!!----------");
+
+            //ケース２
+            foreach (var cList in CharaList)
+            {
+                for (int i = 0; i < cList.Value.Count; i++)
+                {
+                    Console.Write(cList.Key + ":");
+                    Console.WriteLine(cList.Value[i].hp + "/");
+                    Console.WriteLine(cList.Value[i].name + "\n");
+                }
+                Console.WriteLine("\n--------------------------");
+
+            }
+
+
+            List<List<string>> ls = new List<List<string>>();
+            List<string> m = new List<string>();
+            m.Add("山田");
+            m.Add("桑本");
+
+
+            List<string> n = new List<string>();
+            n.Add("太郎");
+            n.Add("花子");
+
+            ls.Add(m);
+            ls.Add(n);
+
+            Console.WriteLine(ls[0][0]);
+            //Dictionary型をforで取り出すのはかなり難しい
+            //for (int i = 0; i < CharaList.Count; i++)
+
+            /*            foreach (KeyValuePair<string, List<Chara>> cList in CharaList)
+                        {
+                            foreach (var h in cList.Value)
+                            {
+                                Console.Write(cList.Key + ":");
+                                Console.Write(h.hp + "/");
+                                Console.Write(h.name + "\n");
+                            }
+                            Console.WriteLine("-----------------------------");
+                        }
+            */
+            //キーが取り出せないケース１
+            /*
+                        foreach (List<Chara> cList in CharaList.Values)
+                        {
+                            foreach (Chara h in cList)
+                            {
+                                Console.Write(CharaList.Keys + ":");
+                                Console.Write(h.hp + "/");
+                                Console.Write(h.name + "\n");
+                            }
+                            Console.WriteLine("-----------------------------");
+                        }*/
+
+
+
+
+            float f1 = 0.2f;
+            float f2 = 0.3f;
+            Console.WriteLine(0.5f == f1 + f2);
+            Console.WriteLine(f1 + f2);
+            Console.WriteLine("-----------------------------");
+
+            Decimal d1 = 0.2m;
+            Decimal d2 = 0.3m;
+            Console.WriteLine(0.5m == d1 + d2);
+            Console.WriteLine(d1 + d2);
+            Console.WriteLine("-----------------------------");
+
+            Point a = new Point(3, 5);
+            Size aaa = new Size(170, 50);
+            KeyValuePair<int, int> kv = new KeyValuePair<int, int>(111, 222);
+
+            Console.WriteLine(a);
+            Console.WriteLine(aaa);
+            Console.WriteLine(kv);
+
+
+        }
+
+
+    }
+}
+
