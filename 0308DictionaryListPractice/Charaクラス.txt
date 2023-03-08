@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Pra0308
+{
+    internal class Chara
+    {
+
+        public int hp { get; set; }
+        public string name { get; set; }
+
+        public Chara()
+        {
+            hp= 0;
+            name = "nobi";
+        }
+        public Chara(int hp,string name)
+        {
+            this.hp = hp;
+            this.name =name;
+        }
+    }
+}
