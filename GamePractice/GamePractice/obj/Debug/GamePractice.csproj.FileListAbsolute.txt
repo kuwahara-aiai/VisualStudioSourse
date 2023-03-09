@@ -1,0 +1,8 @@
+C:\Users\ia\source\repos\GamePractice\GamePractice\bin\Debug\GamePractice.exe.config
+C:\Users\ia\source\repos\GamePractice\GamePractice\bin\Debug\GamePractice.exe
+C:\Users\ia\source\repos\GamePractice\GamePractice\bin\Debug\GamePractice.pdb
+C:\Users\ia\source\repos\GamePractice\GamePractice\obj\Debug\GamePractice.csproj.AssemblyReference.cache
+C:\Users\ia\source\repos\GamePractice\GamePractice\obj\Debug\GamePractice.csproj.SuggestedBindingRedirects.cache
+C:\Users\ia\source\repos\GamePractice\GamePractice\obj\Debug\GamePractice.csproj.CoreCompileInputs.cache
+C:\Users\ia\source\repos\GamePractice\GamePractice\obj\Debug\GamePractice.exe
+C:\Users\ia\source\repos\GamePractice\GamePractice\obj\Debug\GamePractice.pdb

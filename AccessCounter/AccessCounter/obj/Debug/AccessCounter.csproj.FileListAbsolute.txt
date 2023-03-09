@@ -1,0 +1,8 @@
+C:\Users\ia\source\repos\AccessCounter\AccessCounter\bin\Debug\AccessCounter.exe.config
+C:\Users\ia\source\repos\AccessCounter\AccessCounter\bin\Debug\AccessCounter.exe
+C:\Users\ia\source\repos\AccessCounter\AccessCounter\bin\Debug\AccessCounter.pdb
+C:\Users\ia\source\repos\AccessCounter\AccessCounter\obj\Debug\AccessCounter.csproj.AssemblyReference.cache
+C:\Users\ia\source\repos\AccessCounter\AccessCounter\obj\Debug\AccessCounter.csproj.SuggestedBindingRedirects.cache
+C:\Users\ia\source\repos\AccessCounter\AccessCounter\obj\Debug\AccessCounter.csproj.CoreCompileInputs.cache
+C:\Users\ia\source\repos\AccessCounter\AccessCounter\obj\Debug\AccessCounter.exe
+C:\Users\ia\source\repos\AccessCounter\AccessCounter\obj\Debug\AccessCounter.pdb

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace GameSpace
 {
-    interface ChoiseChara
+    internal interface PhysicalAttack
     {
-        void ChoiseUser();
-        void ChoiseEnemy();
-    }
+        void Punch();
+        void Kick();
 
+        void Skill();
+    }
 }

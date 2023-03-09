@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameSpace
+namespace GamePractice
 {
-    public class Main1
+    internal class Program
     {
         static void Main(string[] args)
         {
-            ILoveCat catgame= new ILoveCat();
+            ILoveCat catgame = new ILoveCat();
             catgame.FirstMessage();
             catgame.PlayGame();
         }
