@@ -1,0 +1,8 @@
+C:\Users\ia\source\repos\FishingGame\FishingGame\bin\Debug\FishingGame.exe.config
+C:\Users\ia\source\repos\FishingGame\FishingGame\bin\Debug\FishingGame.exe
+C:\Users\ia\source\repos\FishingGame\FishingGame\bin\Debug\FishingGame.pdb
+C:\Users\ia\source\repos\FishingGame\FishingGame\obj\Debug\FishingGame.csproj.AssemblyReference.cache
+C:\Users\ia\source\repos\FishingGame\FishingGame\obj\Debug\FishingGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\ia\source\repos\FishingGame\FishingGame\obj\Debug\FishingGame.csproj.CoreCompileInputs.cache
+C:\Users\ia\source\repos\FishingGame\FishingGame\obj\Debug\FishingGame.exe
+C:\Users\ia\source\repos\FishingGame\FishingGame\obj\Debug\FishingGame.pdb
