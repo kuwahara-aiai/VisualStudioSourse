@@ -1,0 +1,8 @@
+C# の DateTime で説明する ValueObject
+https://qiita.com/noko_gbs/items/4dd3bf699686cd5cc60b
+
+staticメソッドの使いみちがイマイチわからないのでまとめてみた
+https://qiita.com/uhooi/items/f32e20750d2fb0f2da46
+
+小数（浮動小数点数型）の計算が思った結果にならない理由と解決法
+https://dobon.net/vb/dotnet/beginner/floatingpointerror.html#section1
