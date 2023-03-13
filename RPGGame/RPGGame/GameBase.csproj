@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cat.cs" />
     <Compile Include="Chara.cs" />
     <Compile Include="ChoiseChara.cs" />
     <Compile Include="ILoveCat.cs" />
+    <Compile Include="LoadData.cs" />
+    <Compile Include="LoadGame.cs" />
     <Compile Include="PhysicalAttack.cs" />
     <Compile Include="Magic.cs" />
     <Compile Include="RPG.cs" />

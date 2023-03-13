@@ -6,3 +6,11 @@ C:\Users\ia\source\repos\RPGGame\RPGGame\bin\Debug\RPGGame.exe
 C:\Users\ia\source\repos\RPGGame\RPGGame\bin\Debug\RPGGame.pdb
 C:\Users\ia\source\repos\RPGGame\RPGGame\obj\Debug\RPGGame.exe
 C:\Users\ia\source\repos\RPGGame\RPGGame\obj\Debug\RPGGame.pdb
+C:\Users\ia\Desktop\VisualStudioSourse-main\RPGGame\RPGGame\bin\Debug\RPGGame.exe.config
+C:\Users\ia\Desktop\VisualStudioSourse-main\RPGGame\RPGGame\bin\Debug\RPGGame.exe
+C:\Users\ia\Desktop\VisualStudioSourse-main\RPGGame\RPGGame\bin\Debug\RPGGame.pdb
+C:\Users\ia\Desktop\VisualStudioSourse-main\RPGGame\RPGGame\obj\Debug\GameBase.csproj.AssemblyReference.cache
+C:\Users\ia\Desktop\VisualStudioSourse-main\RPGGame\RPGGame\obj\Debug\GameBase.csproj.SuggestedBindingRedirects.cache
+C:\Users\ia\Desktop\VisualStudioSourse-main\RPGGame\RPGGame\obj\Debug\GameBase.csproj.CoreCompileInputs.cache
+C:\Users\ia\Desktop\VisualStudioSourse-main\RPGGame\RPGGame\obj\Debug\RPGGame.exe
+C:\Users\ia\Desktop\VisualStudioSourse-main\RPGGame\RPGGame\obj\Debug\RPGGame.pdb
