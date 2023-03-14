@@ -1,96 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Linq;
-using static System.Net.WebRequestMethods;
 
 namespace GameSpace
 {
-    public class ILoveCat : LoadGame
+    public class ILoveCat : Game
     {
         private List<Cat> CatList = new List<Cat>();
         private Random random = new Random();
-        static string path = @"C:\Users\ia\Desktop\VisualStudioSourse-main\RPGGame\RPGGame\\catlist.csv";
 
-
-        public void Load()
-        {
-
-            List<Cat> list;
-
-            if (System.IO.File.Exists(path))
-            {
-                list = LoadFiles(path);
-                Console.WriteLine("これまで加わった猫ちゃんも一緒だよ！\n\n");
-            }
-            else
-            {
-                //初回時
-
-                using (StreamWriter sw = new StreamWriter(path, false, Encoding.UTF8))
-                { }
-                list = new List<Cat>();
-                Console.WriteLine("はじめての猫探しへ出かけよう！\n\n");
-            }
-        }
-        static List<Cat> LoadFiles(string path)
-        {
-            List<Cat> list = new List<Cat>();
-            using (StreamReader sr = new StreamReader(path))
-            {
-                while (sr.EndOfStream == false)
-                {
-                    string[] values = sr.ReadToEnd().Split(',');
-                    //名前の取り出し
-                    string name = values[0];
-                    string type = values[1];
-                    int intimacy = int.Parse(values[2]);
-                    Cat c = new Cat(name, type, intimacy);
-                    list.Add(c);
-                    sr.Close();
-
-                }
-            }
-            return list;
-
-        }
-
-        public void SaveData(string path,List<Cat> list)
-        {
-            using (StreamWriter sw = new StreamWriter(path, true, Encoding.UTF8))
-            {
-
-                for (int i = 0; i < CatList.Count(); i++)
-                {
-                    sw.Write(list[i].name);
-                    Console.Write(list[i].name);
-                    sw.Write(list[i].type);
-                    Console.Write(list[i].type);
-                    sw.WriteLine(list [i].intimacy);
-                    Console.Write(list[i].intimacy);
-                }
-              /*  foreach (Cat c in list)
-                {
-
-
-                    var txt =c.ToString();
-                    sw.WriteLine(txt);
-
-                    //リストの内容をファイル（CSV)に書き込む（上書き）
-                    // System.IO.File.WriteAllLines(path, txt, Encoding.GetEncoding("shift-jis"));
-
-
-                }*/
-            }
-        }
 
         public override void FirstMessage()
         {
-            Load();
             Console.WriteLine("町の猫ちゃんたちと仲良くなろう！");
             Console.WriteLine("『ねこちゃんダイスキ ゲーム』をはじめる\n\n\n");
         }
@@ -139,10 +62,20 @@ namespace GameSpace
                     int cnt = 1;
                     foreach (Cat ca in CatList)
                     {
-                        Console.WriteLine("******{0}匹目******", cnt++);
+                        Console.WriteLine("***  {0}匹目 ***　", cnt++);
                         Console.WriteLine(ca.ShowStatus());
                     }
 
+                    /*
+                      * int c = 1;
+                    for (int i = 0; i < CatList.Count(); i++)
+                    {
+                        Console.Write("{0}匹目　　", c++);
+                        Console.Write("名前：{0}  ", CatList[i].name);
+                        Console.Write("種類：{0}  ", CatList[i].type);
+                        Console.WriteLine("親密度：{0}", CatList[i].intimacy);
+
+                    }*/
                     Console.WriteLine("-------------------");
                     Console.WriteLine("「さて、どのねこに会いに行こう」");
                     Console.WriteLine("数字を選んでEnter>>");
@@ -151,6 +84,8 @@ namespace GameSpace
                     SortCat(CatList);
                 }
             }
+
+
 
         }
 
@@ -167,15 +102,10 @@ namespace GameSpace
                         CatList[j] = temp;
 
                     }
-
                 }
 
             }
-
         }
-
-
-
 
         public override void EndMessage()
         {
@@ -187,25 +117,66 @@ namespace GameSpace
             else
             {
 
-
-                Console.WriteLine("\n\n「今日はたくさん遊んだね！そろそろおうちに帰ろう」\n\n");
-                Console.WriteLine("「今日みつけたねこ達は、、、」\n\n");
-                int cnt = 1;
-                foreach (Cat c in CatList)
-                {
-                    Console.WriteLine("******{0}匹目******", cnt++);
-                    Console.WriteLine(c.ShowStatus());
-                }
+            
+            Console.WriteLine("\n\n「今日はたくさん遊んだね！そろそろおうちに帰ろう」\n\n");
+            Console.WriteLine("「今日みつけたねこ達は、、、」\n\n");
+            int cnt = 1;
+            foreach (Cat c in CatList)
+            {
+                Console.WriteLine("***  {0}匹目 ***　", cnt++);
+                Console.WriteLine(c.ShowStatus());
+            }
                 Console.WriteLine("\n--------------------------------------------\n");
             }
             Console.WriteLine("「また遊んでね！」");
             Console.WriteLine("\n\n***　おしまい　****\n\n");
-            SaveData(path, CatList);
-            return;
 
 
         }
+    }
+    public class Cat
+    {
+        private string s_name;
+        private string s_type;
+        private int i_intimacy;
+
+        public string name { get { return s_name; } set { s_name = value; } }
+        public string type { get { return s_type; } set { s_type = value; } }
+        public int intimacy { get { return i_intimacy; } set { i_intimacy = value; } }
+
+        /*        public string Name
+                {
+                    get { return Name; } // getterの部分
+                    set { Name = value; } // setterの部分
+                }
+                public string Type
+                {
+                    get { return Type; } // getterの部分
+                    set { Type = value; } // setterの部分
+                }
+                public int Intimacy
+                {
+                    get { return Intimacy; } // getterの部分
+                    set { Intimacy = value; } // setterの部分
+                }*/
+        public Cat(string name, string type)
+        {
+            this.name = name;
+            this.type = type;
+        }
+
+        public string ShowStatus()
+        {
+
+            return string.Format("{0:G}の{1:G}、親密度は{2:D}ポイント！\n", this.type, this.name, this.intimacy);
+
+        }
+
+        public void play()
+        {
+            Console.WriteLine("{0}と遊んだ\n{0}との親密度がアップした！", this.name);
+            this.intimacy++;
+        }
 
     }
-
 }
